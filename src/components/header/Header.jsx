@@ -6,6 +6,7 @@ function Header() {
     <header>
       <h1>Logo</h1>
       <a href="/">About</a>
+      <a href="/">Home</a>
     </header>
   );
 }
