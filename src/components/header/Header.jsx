@@ -2,13 +2,24 @@ import React from "react";
 import "./Header.css";
 
 function Header() {
-  return (
+  return (    
     <header>
-      <h1>Logo</h1>
-      <a href="/">About</a>
-      <a href="/">Home</a>
+      <nav>
+      <a href="/">Тошкент</a>
+        <a href="/">Бизнинг дўконларимиз</a>
+        <a href="/">Юридик шахслар учун</a>
+        <a href="/">Тўлов усуллари</a>
+      </nav>
+      <div className="language">
+      <p>+99871 209 99 44</p>
+        <div className="lan">
+        <p>УЗ</p>
+
+        </div>
+      </div>
     </header>
   );
 }
 
-export default Header;
+export default Header
+    
